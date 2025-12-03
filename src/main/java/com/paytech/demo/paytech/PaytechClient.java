@@ -1,5 +1,6 @@
 package com.paytech.demo.paytech;
 
+import com.paytech.demo.config.FeignConfig;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

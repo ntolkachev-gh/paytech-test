@@ -9,4 +9,3 @@ public record PaymentRequest(
     @JsonProperty("currency") String currency
 ) {
 }
-
