@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-starter-data-r2dbc",
+    "version": "3.3.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.springframework.data",
+          "module": "spring-data-r2dbc",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-spi",
+          "version": {
+            "requires": "1.0.0.RELEASE"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-pool",
+          "version": {
+            "requires": "1.0.1.RELEASE"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-data-r2dbc-3.3.2.jar",
+          "url": "spring-boot-starter-data-r2dbc-3.3.2.jar",
+          "size": 4750,
+          "sha512": "a4d8ccb4bb04a4e1610d24bdc2a8c041b175ee1e4cef1d93ac3e79443f3f34854f6f22b074601bb9dd03b0228cafe18a23288211ffba71326823e8db75ec7e64",
+          "sha256": "1cef6e5468188468bda6641594353317a2f136af32571862ab846d13ce65be43",
+          "sha1": "fdf807ba0a3905679dcda9119eb40f5dd90880a2",
+          "md5": "d340d3960e8ebcb8339fdb289618dc67"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.springframework.data",
+          "module": "spring-data-r2dbc",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-spi",
+          "version": {
+            "requires": "1.0.0.RELEASE"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-pool",
+          "version": {
+            "requires": "1.0.1.RELEASE"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-data-r2dbc-3.3.2.jar",
+          "url": "spring-boot-starter-data-r2dbc-3.3.2.jar",
+          "size": 4750,
+          "sha512": "a4d8ccb4bb04a4e1610d24bdc2a8c041b175ee1e4cef1d93ac3e79443f3f34854f6f22b074601bb9dd03b0228cafe18a23288211ffba71326823e8db75ec7e64",
+          "sha256": "1cef6e5468188468bda6641594353317a2f136af32571862ab846d13ce65be43",
+          "sha1": "fdf807ba0a3905679dcda9119eb40f5dd90880a2",
+          "md5": "d340d3960e8ebcb8339fdb289618dc67"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-data-r2dbc-3.3.2-javadoc.jar",
+          "url": "spring-boot-starter-data-r2dbc-3.3.2-javadoc.jar",
+          "size": 4748,
+          "sha512": "329336539fbea867fb4d5088f9e09451c23f9363dcf6afadb6f7a3a7bf6e99828678e39ff6555e3e920decb4100711cd417a5a236d2e442dd8231ef3e268d6b3",
+          "sha256": "8422875b5c4d3b510c64380851c66e6216c368bae09d33c7e1850fd6669ec392",
+          "sha1": "00442f858a0c83e871ccfe69e11394dd82f0d64e",
+          "md5": "71a08f02456c890157b5672c7721c11e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-data-r2dbc-3.3.2-sources.jar",
+          "url": "spring-boot-starter-data-r2dbc-3.3.2-sources.jar",
+          "size": 4747,
+          "sha512": "f10a1f646a1886fd87d8403ba2c2afc58dc5dc7150be384fcf7e8b0fcb90ce9d05fa4db9faeee9e7f61cf20098a953450808980536b66b84a2790a36baf9d6d8",
+          "sha256": "184c52b565f91ae8519732e0da0dda6fa8afdfeec4512b46e6f196d88abfe509",
+          "sha1": "eee7e79039d5f19f224052ec16ae117ce731f02c",
+          "md5": "ab8c6084c2d73e68248f1e64808599c9"
+        }
+      ]
+    }
+  ]
+}

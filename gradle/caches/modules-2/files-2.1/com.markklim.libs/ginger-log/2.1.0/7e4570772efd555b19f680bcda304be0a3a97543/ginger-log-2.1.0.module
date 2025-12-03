@@ -1,0 +1,157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.markklim.libs",
+    "module": "ginger-log",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ginger-log-2.1.0.jar",
+          "url": "ginger-log-2.1.0.jar",
+          "size": 134583,
+          "sha512": "0aed11ae3a0127f668c1c2a78a60af3c2e50a6a34c18ce00635c7d322b05316243911c283e4a9f0c97c8cc9df7782857c2c5e6e877d679348441e62153cb92c0",
+          "sha256": "6a6644434b7d7eb7dee693dff146f2d73821f6659799362e5a860f1fca29ded7",
+          "sha1": "46d28f9f35e0c85f64894788cef0f7f5169b2979",
+          "md5": "fc769639cc07263788c7771e6a00a8f9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "io.projectreactor.kotlin",
+          "module": "reactor-kotlin-extensions",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-reactive-httpclient",
+          "version": {
+            "requires": "4.0.5"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "3.1.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ginger-log-2.1.0.jar",
+          "url": "ginger-log-2.1.0.jar",
+          "size": 134583,
+          "sha512": "0aed11ae3a0127f668c1c2a78a60af3c2e50a6a34c18ce00635c7d322b05316243911c283e4a9f0c97c8cc9df7782857c2c5e6e877d679348441e62153cb92c0",
+          "sha256": "6a6644434b7d7eb7dee693dff146f2d73821f6659799362e5a860f1fca29ded7",
+          "sha1": "46d28f9f35e0c85f64894788cef0f7f5169b2979",
+          "md5": "fc769639cc07263788c7771e6a00a8f9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ginger-log-2.1.0-sources.jar",
+          "url": "ginger-log-2.1.0-sources.jar",
+          "size": 31334,
+          "sha512": "aeecd22f6dad1e64b736aa76264be99918cbb4472636b6e8aa220164a0358a4dbbcdbc35b652033fbf8dff4caa3482cf6b9b10fce6291e9a0837b417bae13458",
+          "sha256": "8b308c1caf271eb793353f17eb3e71a86627c437e2fdcc8f14a30e8a954f391b",
+          "sha1": "e87fcfc2e3f7dd597291414996ac8593c88a992c",
+          "md5": "fe35b8711247f5c2db1245fd8f08113a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ginger-log-2.1.0-javadoc.jar",
+          "url": "ginger-log-2.1.0-javadoc.jar",
+          "size": 261,
+          "sha512": "1433486e40f901e13c6f792128ab1ee38b9cf3014cd799f9b273dd722cd9d22d2092f01dbcbbf78f0ea81b2401e62c9be307730a289c967f7d19222734442162",
+          "sha256": "7ff9c2493ec3830468e40be2818426b86c15c903f9db35e10b4b83d5f10a7405",
+          "sha1": "084d9154ca47c362d1942b3af4c4937234ec1748",
+          "md5": "d0c2a2d875cc81b60b8a05c19cfa9386"
+        }
+      ]
+    }
+  ]
+}

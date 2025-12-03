@@ -1,0 +1,12 @@
+[phases.setup]
+nixPkgs = ["jdk17", "gradle"]
+
+[phases.install]
+cmds = ["gradle wrapper --gradle-version 8.5"]
+
+[phases.build]
+cmds = ["./gradlew build -x test"]
+
+[start]
+cmd = "java -jar build/libs/paytech-test-1.0.0.jar"
+

@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.projectreactor.kotlin",
+    "module": "reactor-kotlin-extensions",
+    "version": "1.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.5.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reactor-kotlin-extensions-1.2.2.jar",
+          "url": "reactor-kotlin-extensions-1.2.2.jar",
+          "size": 39663,
+          "sha512": "028e9c7b82cc7f23f5582746c542ef2a7f35fc8e653920138f1fe63d0afc2e598275a96c81d31756e12b5095020986fcb63b85c5d26b1d1e36ae460510246ead",
+          "sha256": "f51cb939d1de18994cb3482f5a2507fa67ab69362b32431bb223c296e2d8bd35",
+          "sha1": "1b62450afe2faa101fee7a0bc297f18f9ef66146",
+          "md5": "e6d9630e1f6b0bcb681c7bba11ac71a6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.5.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reactor-kotlin-extensions-1.2.2.jar",
+          "url": "reactor-kotlin-extensions-1.2.2.jar",
+          "size": 39663,
+          "sha512": "028e9c7b82cc7f23f5582746c542ef2a7f35fc8e653920138f1fe63d0afc2e598275a96c81d31756e12b5095020986fcb63b85c5d26b1d1e36ae460510246ead",
+          "sha256": "f51cb939d1de18994cb3482f5a2507fa67ab69362b32431bb223c296e2d8bd35",
+          "sha1": "1b62450afe2faa101fee7a0bc297f18f9ef66146",
+          "md5": "e6d9630e1f6b0bcb681c7bba11ac71a6"
+        }
+      ]
+    }
+  ]
+}

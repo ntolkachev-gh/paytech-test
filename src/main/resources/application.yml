@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: paytech-test
+
+server:
+  port: ${PORT:8080}
+
+paytech:
+  base-url: https://engine-sandbox.pay.tech
+  api-token: ${PAYTECH_API_TOKEN:cAmmvalAikARkB81fgxgMtnMbEdNbuWa}
+
+rate-limit:
+  requests-per-minute: 10
+  requests-per-hour: 100
+
+feign:
+  retry:
+    max-attempts: 3
+    period: 1000
+    max-period: 5000
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 10000
