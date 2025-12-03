@@ -29,5 +29,19 @@ public class RateLimitExceptionHandler {
         model.addAttribute("retryAfter", waitTime);
         return "error";
     }
+
+    @ExceptionHandler(Exception.class)
+    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+    public String handleGenericException(Exception ex, HttpServletRequest request, Model model) {
+        log.error("Unhandled exception for request: {} - {}", request.getRequestURI(), ex.getMessage(), ex);
+        
+        String errorMessage = "An unexpected error occurred. Please try again later.";
+        if (ex.getMessage() != null && !ex.getMessage().isEmpty()) {
+            errorMessage = ex.getMessage();
+        }
+        
+        model.addAttribute("error", errorMessage);
+        return "error";
+    }
 }
 

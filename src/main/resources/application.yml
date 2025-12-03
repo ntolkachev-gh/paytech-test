@@ -1,9 +1,24 @@
 spring:
   application:
     name: paytech-test
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+    encoding: UTF-8
+    cache: false
 
 server:
   port: ${PORT:8080}
+  error:
+    include-message: always
+    include-stacktrace: on_param
+    include-binding-errors: always
+
+logging:
+  level:
+    root: INFO
+    com.paytech.demo: DEBUG
 
 paytech:
   base-url: https://engine-sandbox.pay.tech
